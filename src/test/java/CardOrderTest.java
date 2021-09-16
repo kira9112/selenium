@@ -45,7 +45,7 @@ class CardOrderTest {
 
         driver.get("http://localhost:9999");
         driver.findElement(cssSelector("[type='text']")).sendKeys("Алексей Сидоров");
-        driver.findElement(cssSelector("[type='tel']")).sendKeys("+79651244558");
+        driver.findElement(cssSelector("[type='tel']")).sendKeys("+79656569685");
         driver.findElement(cssSelector(".checkbox__box")).click();
         driver.findElement(cssSelector("button")).click();
         String expected = "Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.";
